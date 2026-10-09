@@ -16,7 +16,7 @@ int main(void) {
   double p = 1.0;
   double sum = 0.0;
 
-  for (int i = 0; i <= n; i++) {
+  for (int i = 1; i <= n; i++) {
     sum += i + sin(i);
     p *= ((double)i * i + 1) / sum;
   }
